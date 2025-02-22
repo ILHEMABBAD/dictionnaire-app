@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bdd>
+  <entry>
+    <lemma n="phon">test</lemma>
+    <lemma n="orth">test</lemma>
+    <form>
+      <pos n="1">nm</pos>
+    </form>
+    <def>essayer</def>
+  </entry>
+  <entry>
+    <lemma n="phon">gato</lemma>
+    <lemma n="orth">gateau</lemma>
+    <form>
+      <pos n="1">nm</pos>
+    </form>
+    <def>nourriture</def>
+  </entry>
+  <entry>
+    <lemma n="phon">mézon</lemma>
+    <lemma n="orth">maison</lemma>
+    <form>
+      <pos n="1">nf</pos>
+    </form>
+    <def>abri</def>
+  </entry>
+  <entry>
+    <lemma n="phon">ilhem</lemma>
+    <lemma n="orth">abbad</lemma>
+    <form>
+      <pos n="1">np</pos>
+    </form>
+    <def>inspiration</def>
+  </entry>
+</bdd>
