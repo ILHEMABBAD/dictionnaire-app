@@ -18,6 +18,7 @@ Ce projet est une application web permettant de consulter, ajouter et modifier u
 1️⃣ Consulter les mots
 
 📌 utilisez la barre de recherche pour filtrer les mots.
+
 2️⃣ Ajouter un mot
 
     Remplissez les champs Phonétique, Orthographe et Définition.
@@ -28,11 +29,20 @@ Ce projet est une application web permettant de consulter, ajouter et modifier u
     Cliquez sur le bouton "supprimer" à côté d un mot.
     Le mot sera supprimé, vous pourrez alors le réajouter avec les modifications souhaitées.
 
-🌐 Endpoints du Backend
 
-📌 Voici les routes de l API que vous pouvez tester avec Postman ou un autre client HTTP :
-Méthode	URL	Description
-GET	/bdd	Récupère toutes les entrées
-POST	/bddsave	Ajoute une nouvelle entrée
-DELETE /bdddelete → Supprime une entrée existante
-master
+
+    Pour la faire fonctionner, voici la procédure à suivre :
+
+
+    Installer Node.js si ce n’est pas déjà fait. Il est disponible ici : https://nodejs.org.
+    Cloner le projet en exécutant la commande : git clone https://github.com/ILHEMABBAD/dictionnaire-app.git.
+    Lancer le backend :
+        Aller dans le dossier backend avec cd backend.
+        Installer les dépendances avec npm install.
+        Démarrer le serveur avec node server.js.
+    Lancer le frontend :
+        Aller dans le dossier frontend avec cd frontend.
+        Installer les dépendances avec npm install.
+        Démarrer l’application avec npm start.
+    L’application sera accessible à l’adresse http://localhost:3000.
+
